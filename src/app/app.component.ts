@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'minimus';
+  showMenu: boolean = true;
+  darkModeActive: boolean = false;
+  toggleMenu() {}
+  modeToggleSwitch() {}
 }
